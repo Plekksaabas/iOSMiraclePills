@@ -46,12 +46,23 @@
                                     <constraint firstAttribute="height" constant="1" id="WpE-AV-58E"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Full Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2W-bQ-bEB">
+                                <rect key="frame" x="20" y="240" width="335" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="hcc-Mw-Of7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mi1-qL-qpK" firstAttribute="centerX" secondItem="UGc-Io-iSN" secondAttribute="centerX" id="77p-wz-nvK"/>
                             <constraint firstItem="mi1-qL-qpK" firstAttribute="top" secondItem="UGc-Io-iSN" secondAttribute="bottom" constant="60" id="7K6-fV-rqx"/>
+                            <constraint firstItem="k2W-bQ-bEB" firstAttribute="trailing" secondItem="v9w-WK-tD3" secondAttribute="trailing" id="7rg-7P-hC2"/>
                             <constraint firstItem="UGc-Io-iSN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="EXJ-P5-3N4"/>
+                            <constraint firstItem="k2W-bQ-bEB" firstAttribute="leading" secondItem="v9w-WK-tD3" secondAttribute="leading" id="I31-Ig-9Bi"/>
                             <constraint firstItem="UGc-Io-iSN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NES-FD-a9P"/>
                             <constraint firstItem="v9w-WK-tD3" firstAttribute="centerX" secondItem="Nin-Sa-A7e" secondAttribute="centerX" id="WfW-eK-8K1"/>
                             <constraint firstItem="Nin-Sa-A7e" firstAttribute="centerX" secondItem="UGc-Io-iSN" secondAttribute="centerX" id="Wgo-lg-0mf"/>
@@ -64,24 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="31.875" y="61.267605633802816"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="gsA-g2-SdT">
-            <objects>
-                <viewController id="6Qh-Zb-ZT0" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FGn-xb-BSy"/>
-                        <viewControllerLayoutGuide type="bottom" id="wcb-xp-QdK"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ioj-2d-vQq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WFQ-4T-FhI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
+            <point key="canvasLocation" x="31.199999999999999" y="60.719640179910051"/>
         </scene>
     </scenes>
     <resources>
